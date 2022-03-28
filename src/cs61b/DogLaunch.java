@@ -1,6 +1,5 @@
 package cs61b;
 import java.util.Comparator;
-
 public class DogLaunch {
     public static void main(String[] args) {
         Dog d1 = new Dog("E", 3);
