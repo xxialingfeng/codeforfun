@@ -36,7 +36,7 @@ public class MyHashMap<K, V> implements Map61B<K, V>{
                 return new BucketEntity<>(key, val, null);
             }
             if(bucketEntity.k.equals(key)){
-                this.v =val;
+                this.v = val;
                 return bucketEntity;
             }
             bucketEntity.next = put(bucketEntity.next, key, val);
